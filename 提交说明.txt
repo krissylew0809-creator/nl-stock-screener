@@ -1,0 +1,19 @@
+同花顺笔试 题目02｜自然语言智能选股与策略解释器
+
+一、可访问的 Web 产品 URL
+https://nl-stock-screener.onrender.com
+（免费实例，闲置后首次打开约需 50 秒唤醒；已接入扶摇真实数据。）
+
+二、源代码仓库
+https://github.com/krissylew0809-creator/nl-stock-screener
+
+三、本压缩包内容
+- README.md            启动方式、环境变量、AI 角色、数据来源、已知边界
+- docs/AI_LOG.md       AI 使用与验证记录（含 40 个真实数值核对）
+- docs/TESTING.md      测试说明（18 项自动化用例）
+- app/ public/ server.py tests/   源代码与测试
+- Dockerfile           部署配置
+注：压缩包不含 API Key；密钥通过环境变量配置（.env.example 为模板）。
+
+四、快速体验
+打开网址 → 点“解析为数据条件” → 检查/修改条件 → 点“运行筛选” → 展开任一股票查看入选/排除依据 → 查看“条件变化会带来什么影响”。
